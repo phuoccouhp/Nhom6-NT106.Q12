@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Form1",
+      "appliesTo": "BTVN1-Nhom6-NT106.Q12/Form1.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Form1",
+      "appliesTo": "BTVN1-Nhom6-NT106.Q12/Form1.cs",
+      "type": "launch"
+    }
+  ]
+}
