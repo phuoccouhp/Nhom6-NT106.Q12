@@ -1,4 +1,3 @@
-E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Form1.resources
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nhom6-NT106.Q12.csproj.GenerateResource.cache
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nhom6-NT106.Q12.GeneratedMSBuildEditorConfig.editorconfig
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nhom6-NT106.Q12.AssemblyInfoInputs.cache
@@ -15,3 +14,6 @@ E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\refint\BTVN1-N
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nhom6-NT106.Q12.pdb
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nhom6-NT106.Q12.genruntimeconfig.cache
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\ref\BTVN1-Nhom6-NT106.Q12.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Dangky.resources
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Dangnhap.resources
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.ThongTinNguoiDung.resources
