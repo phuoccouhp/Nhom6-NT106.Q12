@@ -68,6 +68,7 @@
             TB_Username.Name = "TB_Username";
             TB_Username.Size = new Size(267, 27);
             TB_Username.TabIndex = 1;
+            TB_Username.Validating += TB_Username_Validating;
             // 
             // label1
             // 
@@ -125,6 +126,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(267, 27);
             textBox1.TabIndex = 7;
+            textBox1.Validating += textBox1_Validating;
             // 
             // textBox2
             // 
@@ -132,6 +134,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(267, 27);
             textBox2.TabIndex = 8;
+            textBox2.Validating += textBox2_Validating;
             // 
             // textBox3
             // 
@@ -139,6 +142,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(267, 27);
             textBox3.TabIndex = 9;
+            textBox3.Validating += textBox3_Validating;
             // 
             // textBox4
             // 
