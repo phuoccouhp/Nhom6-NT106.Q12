@@ -28,28 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dangnhap));
+            TB_MK = new TextBox();
             label1 = new Label();
             TB_Username = new TextBox();
             LB_Username = new Label();
-            LB_Link = new LinkLabel();
+            LB_QUENMK = new LinkLabel();
             LB_Quen = new Label();
             BT_Dangnhap = new Button();
-            linkLabel1 = new LinkLabel();
+            Link_DK = new LinkLabel();
+            LinkDK = new LinkLabel();
             SuspendLayout();
             // 
-            // textBox1
+            // TB_MK
             // 
-            textBox1.Location = new Point(261, 125);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(267, 27);
-            textBox1.TabIndex = 11;
+            TB_MK.Location = new Point(644, 375);
+            TB_MK.Name = "TB_MK";
+            TB_MK.Size = new Size(267, 27);
+            TB_MK.TabIndex = 11;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 11F);
-            label1.Location = new Point(108, 124);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(502, 377);
             label1.Name = "label1";
             label1.Size = new Size(91, 25);
             label1.TabIndex = 10;
@@ -57,7 +61,8 @@
             // 
             // TB_Username
             // 
-            TB_Username.Location = new Point(261, 80);
+            TB_Username.BackColor = Color.White;
+            TB_Username.Location = new Point(644, 342);
             TB_Username.Name = "TB_Username";
             TB_Username.Size = new Size(267, 27);
             TB_Username.TabIndex = 9;
@@ -65,62 +70,89 @@
             // LB_Username
             // 
             LB_Username.AutoSize = true;
+            LB_Username.BackColor = Color.Transparent;
             LB_Username.Font = new Font("Segoe UI", 11F);
-            LB_Username.Location = new Point(79, 82);
+            LB_Username.ForeColor = SystemColors.ActiveCaptionText;
+            LB_Username.Location = new Point(470, 344);
             LB_Username.Name = "LB_Username";
             LB_Username.Size = new Size(150, 25);
             LB_Username.TabIndex = 8;
             LB_Username.Text = "Username/Email";
             // 
-            // LB_Link
+            // LB_QUENMK
             // 
-            LB_Link.AutoSize = true;
-            LB_Link.Location = new Point(412, 155);
-            LB_Link.Name = "LB_Link";
-            LB_Link.Size = new Size(116, 20);
-            LB_Link.TabIndex = 24;
-            LB_Link.TabStop = true;
-            LB_Link.Text = "Quên mật khẩu?";
+            LB_QUENMK.AutoSize = true;
+            LB_QUENMK.BackColor = Color.Transparent;
+            LB_QUENMK.Font = new Font("Segoe UI", 8F);
+            LB_QUENMK.LinkColor = Color.Brown;
+            LB_QUENMK.Location = new Point(814, 438);
+            LB_QUENMK.Name = "LB_QUENMK";
+            LB_QUENMK.Size = new Size(111, 19);
+            LB_QUENMK.TabIndex = 24;
+            LB_QUENMK.TabStop = true;
+            LB_QUENMK.Text = "Quên mật khẩu?";
+            LB_QUENMK.LinkClicked += LB_QUENMK_LinkClicked;
             // 
             // LB_Quen
             // 
             LB_Quen.AutoSize = true;
             LB_Quen.Font = new Font("Segoe UI", 9F);
-            LB_Quen.Location = new Point(278, 230);
+            LB_Quen.Location = new Point(427, 316);
             LB_Quen.Name = "LB_Quen";
-            LB_Quen.Size = new Size(154, 20);
+            LB_Quen.Size = new Size(0, 20);
             LB_Quen.TabIndex = 23;
-            LB_Quen.Text = "nếu chưa có tài khoản";
             // 
             // BT_Dangnhap
             // 
-            BT_Dangnhap.Location = new Point(261, 179);
+            BT_Dangnhap.BackColor = Color.MintCream;
+            BT_Dangnhap.Location = new Point(673, 418);
             BT_Dangnhap.Name = "BT_Dangnhap";
-            BT_Dangnhap.Size = new Size(121, 39);
+            BT_Dangnhap.Size = new Size(135, 39);
             BT_Dangnhap.TabIndex = 22;
             BT_Dangnhap.Text = "Đăng nhập";
-            BT_Dangnhap.UseVisualStyleBackColor = true;
+            BT_Dangnhap.UseVisualStyleBackColor = false;
+            BT_Dangnhap.Click += BT_Dangnhap_Click;
             // 
-            // linkLabel1
+            // Link_DK
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(218, 230);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(63, 20);
-            linkLabel1.TabIndex = 25;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Đăng ký";
+            Link_DK.ActiveLinkColor = Color.White;
+            Link_DK.AutoSize = true;
+            Link_DK.BackColor = Color.Transparent;
+            Link_DK.Font = new Font("Segoe UI", 11F);
+            Link_DK.LinkColor = Color.OrangeRed;
+            Link_DK.Location = new Point(502, 476);
+            Link_DK.Name = "Link_DK";
+            Link_DK.Size = new Size(0, 25);
+            Link_DK.TabIndex = 25;
+            Link_DK.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // LinkDK
+            // 
+            LinkDK.ActiveLinkColor = Color.White;
+            LinkDK.AutoSize = true;
+            LinkDK.BackColor = Color.Transparent;
+            LinkDK.Font = new Font("Segoe UI", 11F);
+            LinkDK.LinkColor = Color.OrangeRed;
+            LinkDK.Location = new Point(544, 303);
+            LinkDK.Name = "LinkDK";
+            LinkDK.Size = new Size(288, 25);
+            LinkDK.TabIndex = 27;
+            LinkDK.TabStop = true;
+            LinkDK.Text = "Đăng ký ( nếu chưa có tài khoản)";
+            LinkDK.LinkClicked += LinkDK_LinkClicked;
             // 
             // Dangnhap
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(657, 277);
-            Controls.Add(linkLabel1);
-            Controls.Add(LB_Link);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1377, 630);
+            Controls.Add(LinkDK);
+            Controls.Add(Link_DK);
+            Controls.Add(LB_QUENMK);
             Controls.Add(LB_Quen);
             Controls.Add(BT_Dangnhap);
-            Controls.Add(textBox1);
+            Controls.Add(TB_MK);
             Controls.Add(label1);
             Controls.Add(TB_Username);
             Controls.Add(LB_Username);
@@ -132,13 +164,14 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox TB_MK;
         private Label label1;
         private TextBox TB_Username;
         private Label LB_Username;
-        private LinkLabel LB_Link;
+        private LinkLabel LB_QUENMK;
         private Label LB_Quen;
         private Button BT_Dangnhap;
-        private LinkLabel linkLabel1;
+        private LinkLabel Link_DK;
+        private LinkLabel LinkDK;
     }
 }
