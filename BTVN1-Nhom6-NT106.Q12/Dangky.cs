@@ -5,6 +5,8 @@ namespace BTVN1_Nhom6_NT106.Q12
 
     public partial class Dangky : Form
     {
+        string connectionString = "Server=localhost;Database=UserDB;Trusted_Connection=True;";
+
         [System.Runtime.InteropServices.DllImport("user32.dll", CharSet = CharSet.Unicode)]
         private static extern IntPtr SendMessage(IntPtr hWnd, int msg, IntPtr wParam, string lParam);
         private const int EM_SETCUEBANNER = 0x1501;
@@ -138,6 +140,16 @@ namespace BTVN1_Nhom6_NT106.Q12
                 MessageBox.Show("Không được để họ tên trống!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+        }
+
+        private void LB_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void TB_Username_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

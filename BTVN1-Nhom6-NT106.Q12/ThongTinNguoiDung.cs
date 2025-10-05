@@ -16,5 +16,10 @@ namespace BTVN1_Nhom6_NT106.Q12
         {
             InitializeComponent();
         }
+
+        private void ThongTinNguoiDung_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

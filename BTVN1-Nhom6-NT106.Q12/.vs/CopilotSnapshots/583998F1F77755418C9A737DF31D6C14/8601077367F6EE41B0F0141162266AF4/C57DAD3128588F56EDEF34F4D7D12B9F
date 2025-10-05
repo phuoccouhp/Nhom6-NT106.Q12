@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace BTVN1_Nhom6_NT106.Q12
+{
+    public partial class Dangnhap : Form
+    {
+        public Dangnhap()
+        {
+            InitializeComponent();
+        }
+
+        private void BT_Dangnhap_Click(object sender, EventArgs e)
+        {
+            string username = TB_Username.Text.Trim();
+            string password = TB_MK.Text.Trim();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM Users WHERE Username = @u AND Password = @p";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@u", username);
+                    cmd.Parameters.AddWithValue("@p", password);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            MessageBox.Show("Đăng nhập thành công!");
+                            FormMain main = new FormMain(username);
+                            main.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

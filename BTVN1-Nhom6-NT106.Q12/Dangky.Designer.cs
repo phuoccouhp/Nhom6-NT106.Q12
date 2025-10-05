@@ -68,6 +68,7 @@
             TB_Username.Name = "TB_Username";
             TB_Username.Size = new Size(267, 27);
             TB_Username.TabIndex = 1;
+            TB_Username.TextChanged += TB_Username_TextChanged;
             TB_Username.Validating += TB_Username_Validating;
             // 
             // label1
@@ -248,6 +249,7 @@
             LB_Link.TabIndex = 21;
             LB_Link.TabStop = true;
             LB_Link.Text = "Đăng nhập";
+            LB_Link.LinkClicked += LB_Link_LinkClicked;
             // 
             // Dangky
             // 
