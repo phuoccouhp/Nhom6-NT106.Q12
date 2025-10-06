@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            label1 = new Label();
+            TB_MK = new TextBox();
+            LB_MK = new Label();
             TB_Username = new TextBox();
             LB_Username = new Label();
-            LB_Link = new LinkLabel();
+            LB_LinkForget = new LinkLabel();
             LB_Quen = new Label();
             BT_Dangnhap = new Button();
-            linkLabel1 = new LinkLabel();
+            Link_DK = new LinkLabel();
             SuspendLayout();
             // 
-            // textBox1
+            // TB_MK
             // 
-            textBox1.Location = new Point(261, 125);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(267, 27);
-            textBox1.TabIndex = 11;
+            TB_MK.Location = new Point(261, 125);
+            TB_MK.Name = "TB_MK";
+            TB_MK.Size = new Size(267, 27);
+            TB_MK.TabIndex = 11;
             // 
-            // label1
+            // LB_MK
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11F);
-            label1.Location = new Point(108, 124);
-            label1.Name = "label1";
-            label1.Size = new Size(91, 25);
-            label1.TabIndex = 10;
-            label1.Text = "Mật khẩu";
+            LB_MK.AutoSize = true;
+            LB_MK.Font = new Font("Segoe UI", 11F);
+            LB_MK.Location = new Point(108, 124);
+            LB_MK.Name = "LB_MK";
+            LB_MK.Size = new Size(91, 25);
+            LB_MK.TabIndex = 10;
+            LB_MK.Text = "Mật khẩu";
             // 
             // TB_Username
             // 
@@ -72,15 +72,16 @@
             LB_Username.TabIndex = 8;
             LB_Username.Text = "Username/Email";
             // 
-            // LB_Link
+            // LB_LinkForget
             // 
-            LB_Link.AutoSize = true;
-            LB_Link.Location = new Point(412, 155);
-            LB_Link.Name = "LB_Link";
-            LB_Link.Size = new Size(116, 20);
-            LB_Link.TabIndex = 24;
-            LB_Link.TabStop = true;
-            LB_Link.Text = "Quên mật khẩu?";
+            LB_LinkForget.AutoSize = true;
+            LB_LinkForget.Location = new Point(412, 155);
+            LB_LinkForget.Name = "LB_LinkForget";
+            LB_LinkForget.Size = new Size(116, 20);
+            LB_LinkForget.TabIndex = 24;
+            LB_LinkForget.TabStop = true;
+            LB_LinkForget.Text = "Quên mật khẩu?";
+            LB_LinkForget.LinkClicked += LB_LinkForget_LinkClicked;
             // 
             // LB_Quen
             // 
@@ -100,28 +101,30 @@
             BT_Dangnhap.TabIndex = 22;
             BT_Dangnhap.Text = "Đăng nhập";
             BT_Dangnhap.UseVisualStyleBackColor = true;
+            BT_Dangnhap.Click += BT_Dangnhap_Click;
             // 
-            // linkLabel1
+            // Link_DK
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(218, 230);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(63, 20);
-            linkLabel1.TabIndex = 25;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Đăng ký";
+            Link_DK.AutoSize = true;
+            Link_DK.Location = new Point(218, 230);
+            Link_DK.Name = "Link_DK";
+            Link_DK.Size = new Size(63, 20);
+            Link_DK.TabIndex = 25;
+            Link_DK.TabStop = true;
+            Link_DK.Text = "Đăng ký";
+            Link_DK.LinkClicked += linkLabel1_LinkClicked;
             // 
             // Dangnhap
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(657, 277);
-            Controls.Add(linkLabel1);
-            Controls.Add(LB_Link);
+            Controls.Add(Link_DK);
+            Controls.Add(LB_LinkForget);
             Controls.Add(LB_Quen);
             Controls.Add(BT_Dangnhap);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(TB_MK);
+            Controls.Add(LB_MK);
             Controls.Add(TB_Username);
             Controls.Add(LB_Username);
             Name = "Dangnhap";
@@ -132,13 +135,13 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private Label label1;
+        private TextBox TB_MK;
+        private Label LB_MK;
         private TextBox TB_Username;
         private Label LB_Username;
-        private LinkLabel LB_Link;
+        private LinkLabel LB_LinkForget;
         private Label LB_Quen;
         private Button BT_Dangnhap;
-        private LinkLabel linkLabel1;
+        private LinkLabel Link_DK;
     }
 }
