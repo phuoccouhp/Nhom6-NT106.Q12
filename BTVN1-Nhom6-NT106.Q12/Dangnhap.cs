@@ -40,7 +40,6 @@ namespace BTVN1_Nhom6_NT106.Q12
         {
             Quenmatkhau quenmatkhau = new Quenmatkhau();
             quenmatkhau.Show();
-            this.Hide();
         }
         private string HashPassword(string password)
         {
