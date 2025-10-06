@@ -5,8 +5,8 @@ Thành viên nhóm:
 **24520669	Lê Quang Huy**                                                                                                                                              
 **23521480	Nguyễn Bá Thiện**                                                                                                                      
 **23521558	Nguyễn Phan Thanh Thủy**  
-**Mô tả bài tập**  
-**Hướng dẫn cài đặt**
-**Sử dụng**
-**Các màn hình giao diện ứng dụng**  
+**Mô tả bài tập**    
+**Hướng dẫn cài đặt**  
+**Sử dụng**  
+**Các màn hình giao diện ứng dụng**    
 
