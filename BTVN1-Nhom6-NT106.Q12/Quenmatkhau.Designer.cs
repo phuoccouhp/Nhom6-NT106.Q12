@@ -32,7 +32,7 @@
             LB_Username = new Label();
             BT_Xacthuc = new Button();
             TB_OTP = new TextBox();
-            label1 = new Label();
+            LB_OTP = new Label();
             button1 = new Button();
             SuspendLayout();
             // 
@@ -70,15 +70,15 @@
             TB_OTP.Size = new Size(121, 27);
             TB_OTP.TabIndex = 25;
             // 
-            // label1
+            // LB_OTP
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11F);
-            label1.Location = new Point(171, 219);
-            label1.Name = "label1";
-            label1.Size = new Size(101, 25);
-            label1.TabIndex = 24;
-            label1.Text = "Nhập OTP:";
+            LB_OTP.AutoSize = true;
+            LB_OTP.Font = new Font("Segoe UI", 11F);
+            LB_OTP.Location = new Point(171, 219);
+            LB_OTP.Name = "LB_OTP";
+            LB_OTP.Size = new Size(101, 25);
+            LB_OTP.TabIndex = 24;
+            LB_OTP.Text = "Nhập OTP:";
             // 
             // button1
             // 
@@ -97,7 +97,7 @@
             ClientSize = new Size(807, 440);
             Controls.Add(button1);
             Controls.Add(TB_OTP);
-            Controls.Add(label1);
+            Controls.Add(LB_OTP);
             Controls.Add(BT_Xacthuc);
             Controls.Add(TB_Username);
             Controls.Add(LB_Username);
@@ -113,7 +113,7 @@
         private Label LB_Username;
         private Button BT_Xacthuc;
         private TextBox TB_OTP;
-        private Label label1;
+        private Label LB_OTP;
         private Button button1;
     }
 }

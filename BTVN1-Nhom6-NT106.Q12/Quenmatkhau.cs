@@ -21,6 +21,11 @@ namespace BTVN1_Nhom6_NT106.Q12
         public Quenmatkhau()
         {
             InitializeComponent();
+            this.BackgroundImage = Image.FromFile("Resources/ba32008d4177b9868755336f5e4490f7.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            LB_Username.BackColor = Color.Transparent;
+            LB_OTP.BackColor = Color.Transparent;
+
         }
         bool IsValidGmail(string email)
         {
@@ -44,6 +49,7 @@ namespace BTVN1_Nhom6_NT106.Q12
                 MessageBox.Show("Xác thực OTP thành công", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 MatKhauMoi matKhauMoi = new MatKhauMoi();
                 matKhauMoi.Show();
+                this.Close();
             }
             else
             {
