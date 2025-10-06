@@ -4,87 +4,96 @@ Thành viên nhóm:
 **23521250	Bùi Cao Minh Quân**                                                                                                                
 **24520669	Lê Quang Huy**                                                                                                                                              
 **23521480	Nguyễn Bá Thiện**                                                                                                                      
-**23521558	Nguyễn Phan Thanh Thủy**  <h1 align="center">💻 ỨNG DỤNG QUẢN LÝ TÀI KHOẢN NGƯỜI DÙNG</h1>
+**23521558	Nguyễn Phan Thanh Thủy** 
+<h1 align="center">💻 ỨNG DỤNG QUẢN LÝ TÀI KHOẢN NGƯỜI DÙNG</h1> <p align="center"> <img src="Resources/banner.png" alt="banner" width="800"> </p>
+🧩 MÔ TẢ BÀI TẬP
 
-<p align="center">
-  <img src="Resources/banner.png" alt="banner" width="800">
-</p>
+Ứng dụng được phát triển bằng Windows Forms (C#) giúp quản lý người dùng bao gồm:
 
----
+📝 Đăng ký tài khoản mới
 
-## 🧩 **MÔ TẢ BÀI TẬP**
+🔐 Đăng nhập hệ thống
 
-Ứng dụng được xây dựng bằng **Windows Forms (C#)**, hỗ trợ người dùng:
-- 📝 Đăng ký tài khoản mới  
-- 🔐 Đăng nhập vào hệ thống  
-- 🔁 Đổi mật khẩu và kiểm tra trùng mật khẩu cũ  
-- 👤 Cập nhật thông tin cá nhân  
-- 🔒 Mã hóa mật khẩu bằng **SHA256** trước khi lưu vào cơ sở dữ liệu  
+🔁 Đổi mật khẩu (kiểm tra trùng mật khẩu cũ)
 
-Cơ sở dữ liệu sử dụng **SQL Server**, lưu trữ trong bảng `NguoiDung` với các thông tin:
-> Username, Email, Họ tên, Mật khẩu (đã mã hóa), Ngày sinh, Giới tính, Địa chỉ, Số điện thoại.
+👤 Cập nhật và hiển thị thông tin cá nhân
 
----
+🔒 Mã hóa mật khẩu bằng SHA256 trước khi lưu vào SQL Server
 
-## ⚙️ **HƯỚNG DẪN CÀI ĐẶT**
+Cơ sở dữ liệu được tạo trong SQL Server với bảng NguoiDung gồm các cột:
 
-### 🧱 Yêu cầu môi trường
-- Visual Studio 2022 hoặc mới hơn (chọn workload: `.NET Desktop Development`)
-- SQL Server + SQL Server Management Studio (SSMS)
+Username, Email, HoTen, PasswordHash, NgaySinh, GioiTinh, DiaChi, SoDienThoai.
 
-### 🚀 Cài đặt
-1. Clone project:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+⚙️ HƯỚNG DẪN CÀI ĐẶT
+🧱 Yêu cầu môi trường
+
+Visual Studio 2022 (hoặc mới hơn)
+
+Cần chọn workload: .NET Desktop Development
+
+SQL Server + SQL Server Management Studio (SSMS)
+
+🚀 Cài đặt
+
+Clone project:
+
+git clone https://github.com/<your-username>/<repo-name>.git
+
+
 Tạo cơ sở dữ liệu:
 
 Mở SSMS
 
-Chạy file SQL có sẵn trong thư mục:
+Chạy file SQL trong thư mục:
 
-pgsql
-Sao chép mã
 Database/QL_TaiKhoan.sql
-Kiểm tra chuỗi kết nối trong App.config hoặc phần code C#:
 
-csharp
-Sao chép mã
+
+Cấu hình chuỗi kết nối trong code C#:
+
 Data Source=.;Initial Catalog=QL_TaiKhoan;Integrated Security=True;
-⚠️ Nếu bạn đặt tên SQL khác, hãy sửa lại Data Source cho đúng.
 
-Mở file .sln trong Visual Studio, sau đó nhấn Ctrl + F5 để chạy ứng dụng.
+
+⚠️ Nếu SQL của bạn có tên khác, chỉnh lại Data Source cho phù hợp.
+
+Mở file .sln bằng Visual Studio, nhấn Ctrl + F5 để chạy ứng dụng.
 
 🪄 HƯỚNG DẪN SỬ DỤNG
 🔸 Đăng ký tài khoản
+
 Nhập đầy đủ thông tin: Username, Email, Mật khẩu, Xác nhận mật khẩu.
 
-Mật khẩu hợp lệ nếu có:
+Mật khẩu hợp lệ khi có:
 
-≥ 8 ký tự
+Ít nhất 8 ký tự
 
-Ít nhất 1 chữ hoa, 1 chữ thường, 1 ký tự đặc biệt, 1 chữ số.
+Có chữ hoa, chữ thường, ký tự đặc biệt và số
 
-Nhấn Đăng ký → Tài khoản được lưu trong SQL Server.
+Nhấn Đăng ký để lưu vào SQL.
 
 🔸 Đăng nhập
-Nhập Username/Email và mật khẩu đã tạo.
+
+Nhập Username/Email và mật khẩu đã đăng ký.
 
 Nếu đúng → chuyển sang giao diện người dùng.
 
 🔸 Đổi mật khẩu
+
 Nhập mật khẩu cũ và mật khẩu mới.
 
-Nếu mật khẩu mới trùng mật khẩu cũ → báo lỗi.
+Nếu trùng mật khẩu cũ → báo lỗi.
 
-Nếu hợp lệ → cập nhật mật khẩu mới (được mã hóa SHA256).
+Nếu hợp lệ → cập nhật mật khẩu mới (mã hóa SHA256).
 
 🔸 Quên mật khẩu
-Nhập Email để nhận liên kết hoặc tạo mật khẩu mới trực tiếp.
 
-Hệ thống sẽ cập nhật thông tin trong cơ sở dữ liệu.
+Nhập Email → khôi phục hoặc tạo mật khẩu mới.
+
+Cập nhật thông tin trong cơ sở dữ liệu.
 
 🔸 Đăng xuất
-Nhấn nút “Đăng xuất” để quay lại màn hình đăng nhập.
+
+Nhấn Đăng xuất để quay lại màn hình đăng nhập.
 
 🖼️ CÁC MÀN HÌNH GIAO DIỆN ỨNG DỤNG
 🔹 Màn hình Đăng nhập
@@ -95,8 +104,3 @@ Nhấn nút “Đăng xuất” để quay lại màn hình đăng nhập.
 <p align="center"> <img src="Resources/forgot_password.png" alt="Màn hình quên mật khẩu" width="600"> </p>
 🔹 Màn hình Đổi mật khẩu
 <p align="center"> <img src="Resources/change_password.png" alt="Màn hình đổi mật khẩu" width="600"> </p>
-
-**Sử dụng**  
-
-**Các màn hình giao diện ứng dụng**    
-
