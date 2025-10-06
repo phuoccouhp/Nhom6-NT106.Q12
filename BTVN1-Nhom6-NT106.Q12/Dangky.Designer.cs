@@ -30,23 +30,23 @@
         {
             LB_Username = new Label();
             TB_Username = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
+            LB_Email = new Label();
+            LB_Repass = new Label();
+            LB_Pass = new Label();
+            LB_Hoten = new Label();
             button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            lblSDT = new Label();
-            lblNgaySinh = new Label();
-            lblGioiTinh = new Label();
-            lblDiaChi = new Label();
-            txtSDT = new TextBox();
-            txtNgaySinh = new TextBox();
-            txtGioiTinh = new TextBox();
-            txtDiaChi = new TextBox();
+            TB_Email = new TextBox();
+            TB_Hoten = new TextBox();
+            TB_Pass = new TextBox();
+            TB_Repass = new TextBox();
+            LB_SDT = new Label();
+            LB_NS = new Label();
+            LB_GT = new Label();
+            LB_DC = new Label();
+            TB_SDT = new TextBox();
+            TB_NS = new TextBox();
+            TB_GT = new TextBox();
+            TB_DC = new TextBox();
             BT_Dangky = new Button();
             LB_CoTK = new Label();
             LB_Link = new LinkLabel();
@@ -68,47 +68,46 @@
             TB_Username.Name = "TB_Username";
             TB_Username.Size = new Size(267, 27);
             TB_Username.TabIndex = 1;
-            TB_Username.Validating += TB_Username_Validating;
             // 
-            // label1
+            // LB_Email
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11F);
-            label1.Location = new Point(65, 80);
-            label1.Name = "label1";
-            label1.Size = new Size(58, 25);
-            label1.TabIndex = 2;
-            label1.Text = "Email";
+            LB_Email.AutoSize = true;
+            LB_Email.Font = new Font("Segoe UI", 11F);
+            LB_Email.Location = new Point(65, 80);
+            LB_Email.Name = "LB_Email";
+            LB_Email.Size = new Size(58, 25);
+            LB_Email.TabIndex = 2;
+            LB_Email.Text = "Email";
             // 
-            // label2
+            // LB_Repass
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 11F);
-            label2.Location = new Point(14, 202);
-            label2.Name = "label2";
-            label2.Size = new Size(168, 25);
-            label2.TabIndex = 3;
-            label2.Text = "Nhập lại password";
+            LB_Repass.AutoSize = true;
+            LB_Repass.Font = new Font("Segoe UI", 11F);
+            LB_Repass.Location = new Point(14, 202);
+            LB_Repass.Name = "LB_Repass";
+            LB_Repass.Size = new Size(168, 25);
+            LB_Repass.TabIndex = 3;
+            LB_Repass.Text = "Nhập lại password";
             // 
-            // label3
+            // LB_Pass
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 11F);
-            label3.Location = new Point(50, 162);
-            label3.Name = "label3";
-            label3.Size = new Size(91, 25);
-            label3.TabIndex = 4;
-            label3.Text = "Password";
+            LB_Pass.AutoSize = true;
+            LB_Pass.Font = new Font("Segoe UI", 11F);
+            LB_Pass.Location = new Point(50, 162);
+            LB_Pass.Name = "LB_Pass";
+            LB_Pass.Size = new Size(91, 25);
+            LB_Pass.TabIndex = 4;
+            LB_Pass.Text = "Password";
             // 
-            // label4
+            // LB_Hoten
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 11F);
-            label4.Location = new Point(60, 120);
-            label4.Name = "label4";
-            label4.Size = new Size(70, 25);
-            label4.TabIndex = 5;
-            label4.Text = "Họ Tên";
+            LB_Hoten.AutoSize = true;
+            LB_Hoten.Font = new Font("Segoe UI", 11F);
+            LB_Hoten.Location = new Point(60, 120);
+            LB_Hoten.Name = "LB_Hoten";
+            LB_Hoten.Size = new Size(70, 25);
+            LB_Hoten.TabIndex = 5;
+            LB_Hoten.Text = "Họ Tên";
             // 
             // button1
             // 
@@ -120,104 +119,101 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
-            // textBox1
+            // TB_Email
             // 
-            textBox1.Location = new Point(212, 81);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(267, 27);
-            textBox1.TabIndex = 7;
-            textBox1.Validating += textBox1_Validating;
+            TB_Email.Location = new Point(212, 81);
+            TB_Email.Name = "TB_Email";
+            TB_Email.Size = new Size(267, 27);
+            TB_Email.TabIndex = 7;
             // 
-            // textBox2
+            // TB_Hoten
             // 
-            textBox2.Location = new Point(212, 121);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(267, 27);
-            textBox2.TabIndex = 8;
-            textBox2.Validating += textBox2_Validating;
+            TB_Hoten.Location = new Point(212, 121);
+            TB_Hoten.Name = "TB_Hoten";
+            TB_Hoten.Size = new Size(267, 27);
+            TB_Hoten.TabIndex = 8;
             // 
-            // textBox3
+            // TB_Pass
             // 
-            textBox3.Location = new Point(212, 163);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(267, 27);
-            textBox3.TabIndex = 9;
-            textBox3.Validating += textBox3_Validating;
+            TB_Pass.Location = new Point(212, 163);
+            TB_Pass.Name = "TB_Pass";
+            TB_Pass.Size = new Size(267, 27);
+            TB_Pass.TabIndex = 9;
             // 
-            // textBox4
+            // TB_Repass
             // 
-            textBox4.Location = new Point(212, 202);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(267, 27);
-            textBox4.TabIndex = 10;
+            TB_Repass.Location = new Point(212, 202);
+            TB_Repass.Name = "TB_Repass";
+            TB_Repass.Size = new Size(267, 27);
+            TB_Repass.TabIndex = 10;
             // 
-            // lblSDT
+            // LB_SDT
             // 
-            lblSDT.AutoSize = true;
-            lblSDT.Font = new Font("Segoe UI", 11F);
-            lblSDT.Location = new Point(36, 297);
-            lblSDT.Name = "lblSDT";
-            lblSDT.Size = new Size(123, 25);
-            lblSDT.TabIndex = 11;
-            lblSDT.Text = "Số điện thoại";
+            LB_SDT.AutoSize = true;
+            LB_SDT.Font = new Font("Segoe UI", 11F);
+            LB_SDT.Location = new Point(36, 297);
+            LB_SDT.Name = "LB_SDT";
+            LB_SDT.Size = new Size(123, 25);
+            LB_SDT.TabIndex = 11;
+            LB_SDT.Text = "Số điện thoại";
             // 
-            // lblNgaySinh
+            // LB_NS
             // 
-            lblNgaySinh.AutoSize = true;
-            lblNgaySinh.Font = new Font("Segoe UI", 11F);
-            lblNgaySinh.Location = new Point(48, 339);
-            lblNgaySinh.Name = "lblNgaySinh";
-            lblNgaySinh.Size = new Size(96, 25);
-            lblNgaySinh.TabIndex = 12;
-            lblNgaySinh.Text = "Ngày sinh";
+            LB_NS.AutoSize = true;
+            LB_NS.Font = new Font("Segoe UI", 11F);
+            LB_NS.Location = new Point(48, 339);
+            LB_NS.Name = "LB_NS";
+            LB_NS.Size = new Size(96, 25);
+            LB_NS.TabIndex = 12;
+            LB_NS.Text = "Ngày sinh";
             // 
-            // lblGioiTinh
+            // LB_GT
             // 
-            lblGioiTinh.AutoSize = true;
-            lblGioiTinh.Font = new Font("Segoe UI", 11F);
-            lblGioiTinh.Location = new Point(53, 385);
-            lblGioiTinh.Name = "lblGioiTinh";
-            lblGioiTinh.Size = new Size(84, 25);
-            lblGioiTinh.TabIndex = 13;
-            lblGioiTinh.Text = "Giới tính";
+            LB_GT.AutoSize = true;
+            LB_GT.Font = new Font("Segoe UI", 11F);
+            LB_GT.Location = new Point(53, 385);
+            LB_GT.Name = "LB_GT";
+            LB_GT.Size = new Size(84, 25);
+            LB_GT.TabIndex = 13;
+            LB_GT.Text = "Giới tính";
             // 
-            // lblDiaChi
+            // LB_DC
             // 
-            lblDiaChi.AutoSize = true;
-            lblDiaChi.Font = new Font("Segoe UI", 11F);
-            lblDiaChi.Location = new Point(58, 427);
-            lblDiaChi.Name = "lblDiaChi";
-            lblDiaChi.Size = new Size(70, 25);
-            lblDiaChi.TabIndex = 14;
-            lblDiaChi.Text = "Địa chỉ";
+            LB_DC.AutoSize = true;
+            LB_DC.Font = new Font("Segoe UI", 11F);
+            LB_DC.Location = new Point(58, 427);
+            LB_DC.Name = "LB_DC";
+            LB_DC.Size = new Size(70, 25);
+            LB_DC.TabIndex = 14;
+            LB_DC.Text = "Địa chỉ";
             // 
-            // txtSDT
+            // TB_SDT
             // 
-            txtSDT.Location = new Point(212, 298);
-            txtSDT.Name = "txtSDT";
-            txtSDT.Size = new Size(267, 27);
-            txtSDT.TabIndex = 15;
+            TB_SDT.Location = new Point(212, 298);
+            TB_SDT.Name = "TB_SDT";
+            TB_SDT.Size = new Size(267, 27);
+            TB_SDT.TabIndex = 15;
             // 
-            // txtNgaySinh
+            // TB_NS
             // 
-            txtNgaySinh.Location = new Point(212, 340);
-            txtNgaySinh.Name = "txtNgaySinh";
-            txtNgaySinh.Size = new Size(267, 27);
-            txtNgaySinh.TabIndex = 16;
+            TB_NS.Location = new Point(212, 340);
+            TB_NS.Name = "TB_NS";
+            TB_NS.Size = new Size(267, 27);
+            TB_NS.TabIndex = 16;
             // 
-            // txtGioiTinh
+            // TB_GT
             // 
-            txtGioiTinh.Location = new Point(212, 386);
-            txtGioiTinh.Name = "txtGioiTinh";
-            txtGioiTinh.Size = new Size(267, 27);
-            txtGioiTinh.TabIndex = 17;
+            TB_GT.Location = new Point(212, 386);
+            TB_GT.Name = "TB_GT";
+            TB_GT.Size = new Size(267, 27);
+            TB_GT.TabIndex = 17;
             // 
-            // txtDiaChi
+            // TB_DC
             // 
-            txtDiaChi.Location = new Point(212, 428);
-            txtDiaChi.Name = "txtDiaChi";
-            txtDiaChi.Size = new Size(267, 27);
-            txtDiaChi.TabIndex = 18;
+            TB_DC.Location = new Point(212, 428);
+            TB_DC.Name = "TB_DC";
+            TB_DC.Size = new Size(267, 27);
+            TB_DC.TabIndex = 18;
             // 
             // BT_Dangky
             // 
@@ -248,6 +244,7 @@
             LB_Link.TabIndex = 21;
             LB_Link.TabStop = true;
             LB_Link.Text = "Đăng nhập";
+            LB_Link.LinkClicked += LB_Link_LinkClicked;
             // 
             // Dangky
             // 
@@ -257,23 +254,23 @@
             Controls.Add(LB_Link);
             Controls.Add(LB_CoTK);
             Controls.Add(BT_Dangky);
-            Controls.Add(txtDiaChi);
-            Controls.Add(txtGioiTinh);
-            Controls.Add(txtNgaySinh);
-            Controls.Add(txtSDT);
-            Controls.Add(lblDiaChi);
-            Controls.Add(lblGioiTinh);
-            Controls.Add(lblNgaySinh);
-            Controls.Add(lblSDT);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(TB_DC);
+            Controls.Add(TB_GT);
+            Controls.Add(TB_NS);
+            Controls.Add(TB_SDT);
+            Controls.Add(LB_DC);
+            Controls.Add(LB_GT);
+            Controls.Add(LB_NS);
+            Controls.Add(LB_SDT);
+            Controls.Add(TB_Repass);
+            Controls.Add(TB_Pass);
+            Controls.Add(TB_Hoten);
+            Controls.Add(TB_Email);
             Controls.Add(button1);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(LB_Hoten);
+            Controls.Add(LB_Pass);
+            Controls.Add(LB_Repass);
+            Controls.Add(LB_Email);
             Controls.Add(TB_Username);
             Controls.Add(LB_Username);
             Name = "Dangky";
@@ -286,23 +283,23 @@
 
         private Label LB_Username;
         private TextBox TB_Username;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
+        private Label LB_Email;
+        private Label LB_Repass;
+        private Label LB_Pass;
+        private Label LB_Hoten;
         private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private Label lblSDT;
-        private Label lblNgaySinh;
-        private Label lblGioiTinh;
-        private Label lblDiaChi;
-        private TextBox txtSDT;
-        private TextBox txtNgaySinh;
-        private TextBox txtGioiTinh;
-        private TextBox txtDiaChi;
+        private TextBox TB_Email;
+        private TextBox TB_Hoten;
+        private TextBox TB_Pass;
+        private TextBox TB_Repass;
+        private Label LB_SDT;
+        private Label LB_NS;
+        private Label LB_GT;
+        private Label LB_DC;
+        private TextBox TB_SDT;
+        private TextBox TB_NS;
+        private TextBox TB_GT;
+        private TextBox TB_DC;
         private Button BT_Dangky;
         private Label LB_CoTK;
         private LinkLabel LB_Link;

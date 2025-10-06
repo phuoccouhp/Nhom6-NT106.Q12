@@ -17,3 +17,13 @@ E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\ref\BTVN1-Nhom
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Dangky.resources
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Dangnhap.resources
 E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.ThongTinNguoiDung.resources
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.Quenmatkhau.resources
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1_Nhom6_NT106.Q12.MatKhauMoi.resources
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nhom6-NT106.Q12.csproj.AssemblyReference.cache
+E:\Nhom6-NT106.Q12\BTVN1-Nhom6-NT106.Q12\obj\Debug\net8.0-windows\BTVN1-Nh.2716E836.Up2Date

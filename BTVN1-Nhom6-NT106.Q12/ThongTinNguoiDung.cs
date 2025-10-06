@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
+using System.Security.Cryptography;
 namespace BTVN1_Nhom6_NT106.Q12
 {
     public partial class ThongTinNguoiDung : Form

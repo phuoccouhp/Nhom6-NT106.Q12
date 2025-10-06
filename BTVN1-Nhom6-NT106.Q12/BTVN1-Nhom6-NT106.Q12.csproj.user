@@ -7,6 +7,12 @@
     <Compile Update="Dangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="MatKhauMoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Quenmatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ThongTinNguoiDung.cs">
       <SubType>Form</SubType>
     </Compile>
