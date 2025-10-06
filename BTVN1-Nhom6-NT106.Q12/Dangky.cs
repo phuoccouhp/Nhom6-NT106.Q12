@@ -28,6 +28,20 @@ namespace BTVN1_Nhom6_NT106.Q12
         {
 
             InitializeComponent();
+            this.BackgroundImage = Image.FromFile("Resources/ba32008d4177b9868755336f5e4490f7.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            LB_Username.BackColor = Color.Transparent;
+            LB_CoTK.BackColor = Color.Transparent;
+            LB_DC.BackColor = Color.Transparent;
+            LB_Email.BackColor = Color.Transparent;
+            LB_GT.BackColor = Color.Transparent;
+            LB_Hoten.BackColor = Color.Transparent;
+            LB_Link.BackColor = Color.Transparent;
+            LB_NS.BackColor = Color.Transparent;
+            LB_Pass.BackColor = Color.Transparent;
+            LB_Repass.BackColor = Color.Transparent;
+            LB_SDT.BackColor = Color.Transparent;
+           
             this.BT_Dangky.CausesValidation = false;
             SetCueBanner(TB_Email, "abc@gmail.com");
             TB_SDT.Visible = false;

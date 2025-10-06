@@ -28,22 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            LB_MKM = new Label();
             BT_Xacthuc = new Button();
-            TB_Username = new TextBox();
-            LB_Username = new Label();
-            textBox1 = new TextBox();
+            TB_MK = new TextBox();
+            LB_MK = new Label();
+            TB_MKM = new TextBox();
+            LB_User = new Label();
+            TB_User = new TextBox();
             SuspendLayout();
             // 
-            // label1
+            // LB_MKM
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 11F);
-            label1.Location = new Point(107, 206);
-            label1.Name = "label1";
-            label1.Size = new Size(207, 25);
-            label1.TabIndex = 28;
-            label1.Text = "Nhập lại mật khẩu mới:";
+            LB_MKM.AutoSize = true;
+            LB_MKM.Font = new Font("Segoe UI", 11F);
+            LB_MKM.Location = new Point(107, 206);
+            LB_MKM.Name = "LB_MKM";
+            LB_MKM.Size = new Size(207, 25);
+            LB_MKM.TabIndex = 28;
+            LB_MKM.Text = "Nhập lại mật khẩu mới:";
             // 
             // BT_Xacthuc
             // 
@@ -53,42 +55,61 @@
             BT_Xacthuc.TabIndex = 27;
             BT_Xacthuc.Text = "Đổi mật khẩu";
             BT_Xacthuc.UseVisualStyleBackColor = true;
+            BT_Xacthuc.Click += BT_Xacthuc_Click;
             // 
-            // TB_Username
+            // TB_MK
             // 
-            TB_Username.Location = new Point(347, 152);
-            TB_Username.Name = "TB_Username";
-            TB_Username.Size = new Size(257, 27);
-            TB_Username.TabIndex = 26;
+            TB_MK.Location = new Point(347, 152);
+            TB_MK.Name = "TB_MK";
+            TB_MK.Size = new Size(257, 27);
+            TB_MK.TabIndex = 26;
             // 
-            // LB_Username
+            // LB_MK
             // 
-            LB_Username.AutoSize = true;
-            LB_Username.Font = new Font("Segoe UI", 11F);
-            LB_Username.Location = new Point(132, 152);
-            LB_Username.Name = "LB_Username";
-            LB_Username.Size = new Size(182, 25);
-            LB_Username.TabIndex = 25;
-            LB_Username.Text = "Nhập mật khẩu mới:";
-            LB_Username.Click += LB_Username_Click;
+            LB_MK.AutoSize = true;
+            LB_MK.Font = new Font("Segoe UI", 11F);
+            LB_MK.Location = new Point(132, 152);
+            LB_MK.Name = "LB_MK";
+            LB_MK.Size = new Size(182, 25);
+            LB_MK.TabIndex = 25;
+            LB_MK.Text = "Nhập mật khẩu mới:";
             // 
-            // textBox1
+            // TB_MKM
             // 
-            textBox1.Location = new Point(347, 207);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(257, 27);
-            textBox1.TabIndex = 29;
+            TB_MKM.Location = new Point(347, 207);
+            TB_MKM.Name = "TB_MKM";
+            TB_MKM.Size = new Size(257, 27);
+            TB_MKM.TabIndex = 29;
+            // 
+            // LB_User
+            // 
+            LB_User.AutoSize = true;
+            LB_User.Font = new Font("Segoe UI", 11F);
+            LB_User.Location = new Point(107, 106);
+            LB_User.Name = "LB_User";
+            LB_User.Size = new Size(205, 25);
+            LB_User.TabIndex = 30;
+            LB_User.Text = "Nhập Username/Email:";
+            // 
+            // TB_User
+            // 
+            TB_User.Location = new Point(347, 106);
+            TB_User.Name = "TB_User";
+            TB_User.Size = new Size(257, 27);
+            TB_User.TabIndex = 31;
             // 
             // MatKhauMoi
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(TB_User);
+            Controls.Add(LB_User);
+            Controls.Add(TB_MKM);
+            Controls.Add(LB_MKM);
             Controls.Add(BT_Xacthuc);
-            Controls.Add(TB_Username);
-            Controls.Add(LB_Username);
+            Controls.Add(TB_MK);
+            Controls.Add(LB_MK);
             Name = "MatKhauMoi";
             Text = "MatKhauMoi";
             ResumeLayout(false);
@@ -97,10 +118,12 @@
 
         #endregion
 
-        private Label label1;
+        private Label LB_MKM;
         private Button BT_Xacthuc;
-        private TextBox TB_Username;
-        private Label LB_Username;
-        private TextBox textBox1;
+        private TextBox TB_MK;
+        private Label LB_MK;
+        private TextBox TB_MKM;
+        private Label LB_User;
+        private TextBox TB_User;
     }
 }

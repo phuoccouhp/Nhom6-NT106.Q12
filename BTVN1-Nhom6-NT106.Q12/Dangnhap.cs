@@ -17,7 +17,15 @@ namespace BTVN1_Nhom6_NT106.Q12
         public Dangnhap()
         {
          InitializeComponent();
+            this.BackgroundImage = Image.FromFile("Resources/ba32008d4177b9868755336f5e4490f7.jpg");
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            LB_Username.BackColor = Color.Transparent;
+            LB_MK.BackColor = Color.Transparent;
+            LB_LinkForget.BackColor = Color.Transparent;
+            LB_Quen.BackColor = Color.Transparent;
+            Link_DK.BackColor = Color.Transparent;
             TB_MK.UseSystemPasswordChar = true;
+
 
         }
 
@@ -32,6 +40,7 @@ namespace BTVN1_Nhom6_NT106.Q12
         {
             Quenmatkhau quenmatkhau = new Quenmatkhau();
             quenmatkhau.Show();
+            this.Hide();
         }
         private string HashPassword(string password)
         {
@@ -77,7 +86,7 @@ namespace BTVN1_Nhom6_NT106.Q12
                         {
                             MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                            ThongTinNguoiDung home = new ThongTinNguoiDung();
+                            ThongTinNguoiDung home = new ThongTinNguoiDung(username);
                             home.Show();
                             this.Hide();
                         }
