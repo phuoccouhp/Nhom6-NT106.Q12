@@ -10,7 +10,7 @@ Thành viên nhóm:
 
 **Sử dụng**  
 🧩 HƯỚNG DẪN SỬ DỤNG
-🔸 1. Đăng ký tài khoản mới
+🔸 1. Đăng ký tài khoản mới  
 
 Nhập Username, Email, Họ tên, Mật khẩu, Nhập lại mật khẩu
 
@@ -24,15 +24,15 @@ Chứa ít nhất 1 chữ số
 
 Chứa ít nhất 1 ký tự đặc biệt
 
-Nhấn Đăng ký → Thông tin sẽ được lưu vào cơ sở dữ liệu.
+Nhấn Đăng ký → Thông tin sẽ được lưu vào cơ sở dữ liệu, database là QL_TaiKhoan.sql  
 
-🔸 2. Đăng nhập
+🔸 2. Đăng nhập  
 
 Nhập Username hoặc Email, Mật khẩu
 
 Nhấn Đăng nhập để vào hệ thống
 
-🔸 3. Đổi mật khẩu
+🔸 3. Quên mật khẩu  
 
 Nhập Username hoặc Email
 
