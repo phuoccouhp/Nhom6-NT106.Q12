@@ -6,7 +6,7 @@ Thành viên nhóm:
 **23521480	Nguyễn Bá Thiện**                                                                                                                      
 **23521558	Nguyễn Phan Thanh Thủy** 
 # 🧩 ỨNG DỤNG QUẢN LÝ NGƯỜI DÙNG  
-### Môn: Lập Trình Trực Quan (NT106)  
+### Môn: Lập Trình Mạng Căn Bản (NT106)  
 ### Nhóm 6 – Bài Tập Về Nhà 1
 
 ---
