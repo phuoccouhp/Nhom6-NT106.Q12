@@ -73,7 +73,8 @@ namespace BTVN1_Nhom6_NT106.Q12
         private void LuuNguoiDungVaoSQL(string username, string email, string hoten, string password,
                                           string sdt, string ngaysinh, string gioitinh, string diachi)
         {
-            string connectionString = "Data Source=.;Initial Catalog=QL_TaiKhoan;Integrated Security=False;";
+            string connectionString =
+    "Server=10.205.161.194,1433;Database=QL_TaiKhoan;User Id=appuser;Password=StrongPass@123;";
             string hashedPassword = HashPassword(password);
 
             using (SqlConnection conn = new SqlConnection(connectionString))

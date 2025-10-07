@@ -17,7 +17,8 @@ namespace BTVN1_Nhom6_NT106.Q12
 {
     public partial class ThongTinNguoiDung : Form
     {
-        string connectionString = "Data Source=.;Initial Catalog=QL_TaiKhoan;Integrated Security=False;";
+        string connectionString =
+    "Server=10.205.161.194,1433;Database=QL_TaiKhoan;User Id=appuser;Password=StrongPass@123;";
 
         private string currentUsername;
 
