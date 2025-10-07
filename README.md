@@ -56,6 +56,9 @@ Mỗi chức năng được xây dựng thành một form riêng trong không gi
     → Chạy file .sln của project
     Nhấn F5 để chạy chương trình
 ## 💡 HƯỚNG DẪN SỬ DỤNG
+# Khi tải file QL_TaiKhoan (cơ sở dữ liệu) về máy, Màn hình SQL có dạng như sau:
+<img width="1650" height="730" alt="image" src="https://github.com/user-attachments/assets/2560baad-0cf6-4b77-b43a-60e0c64a18d1" />
+
 # 1️⃣ Màn hình Đăng nhập (Dangnhap)
 <img width="661" height="311" alt="image" src="https://github.com/user-attachments/assets/38cd2cbc-3a2e-46e0-8ea9-c4ab9fc6ba56" />
 
