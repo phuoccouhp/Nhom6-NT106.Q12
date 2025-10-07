@@ -69,7 +69,7 @@ Có thể bấm “Quên mật khẩu?” để phục hồi mật khẩu
 Nếu chưa có tài khoản, chọn “Đăng ký”
 
 # 2️⃣ Màn hình Đăng ký (Dangky)
-<img width="627" height="586" alt="image" src="https://github.com/user-attachments/assets/ddb46542-3c2a-4ca2-911f-be135232f07c" />                                                  
+<img width="627" height="586" alt="image" src="https://github.com/user-attachments/assets/ddb46542-3c2a-4ca2-911f-be135232f07c" />                               
 Nút tuỳ chọn để mở rộng thông tin tuỳ chọn:  
 <img width="643" height="601" alt="image" src="https://github.com/user-attachments/assets/ca33ef3f-46d9-4765-bab9-3106841e91ab" />
 
