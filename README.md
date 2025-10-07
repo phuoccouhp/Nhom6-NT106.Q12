@@ -58,6 +58,7 @@ Mỗi chức năng được xây dựng thành một form riêng trong không gi
    # Nhấn F5 để chạy chương trình
 ## 💡 HƯỚNG DẪN SỬ DỤNG
 # 1️⃣ Màn hình Đăng nhập (Dangnhap)
+<img width="661" height="311" alt="image" src="https://github.com/user-attachments/assets/38cd2cbc-3a2e-46e0-8ea9-c4ab9fc6ba56" />
 
 Nhập Username/Email và Mật khẩu
 
@@ -68,7 +69,8 @@ Có thể bấm “Quên mật khẩu?” để phục hồi mật khẩu
 Nếu chưa có tài khoản, chọn “Đăng ký”
 
 # 2️⃣ Màn hình Đăng ký (Dangky)
- 
+<img width="627" height="586" alt="image" src="https://github.com/user-attachments/assets/ddb46542-3c2a-4ca2-911f-be135232f07c" />
+
 Nhập các thông tin cá nhân:
 
 Username
@@ -86,6 +88,7 @@ Nhấn “Đăng ký” để tạo tài khoản mới
 Nếu đã có tài khoản, chọn “Đăng nhập”
 
 # 3️⃣ Màn hình Quên mật khẩu (Quenmatkhau)
+<img width="804" height="479" alt="image" src="https://github.com/user-attachments/assets/e17e1cf8-fe81-408f-afb7-e6a512010f76" />
 
 Nhập Email đăng ký
 
