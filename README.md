@@ -7,9 +7,9 @@ Thành viên nhóm:
 **23521558	Nguyễn Phan Thanh Thủy** 
 # 🧩 ỨNG DỤNG QUẢN LÝ NGƯỜI DÙNG  
 ### Môn: Lập Trình Mạng Căn Bản (NT106)  
-### Nhóm 6 – Bài Tập Về Nhà Tuần 3
+### Bài Tập Về Nhà Tuần 3
 
----
+
 
 ## 📝 MÔ TẢ BÀI TẬP
 
