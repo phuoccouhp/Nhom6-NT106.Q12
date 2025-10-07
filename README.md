@@ -117,3 +117,21 @@ Username, Email, Mật khẩu, SĐT, Giới tính, Ngày sinh, Địa chỉ
 Có thể chọn 👁 hiện/ẩn mật khẩu( dạng mã hoá SHA-256)  
 
 Nhấn “Đăng xuất” để thoát khỏi tài khoản
+
+🧠 Công nghệ sử dụng
+| Thành phần                              | Mô tả                             |
+| --------------------------------------- | --------------------------------- |
+| **C# WinForms**                         | Giao diện và xử lý logic ứng dụng |
+| **SQL Server**                          | Lưu trữ thông tin người dùng      |
+| **SHA-256**                             | Mã hóa mật khẩu                   |
+| **System.Net.Mail**                     | Gửi email chứa mã OTP             |
+| **ADO.NET (SqlConnection, SqlCommand)** | Kết nối và thao tác cơ sở dữ liệu |
+
+🌟 Kết luận
+
+Ứng dụng minh họa quy trình cơ bản của hệ thống quản lý tài khoản:
+Từ đăng ký, đăng nhập, quên mật khẩu, đến hiển thị thông tin cá nhân.
+Toàn bộ quá trình đều đảm bảo bảo mật thông tin người dùng thông qua mã hóa SHA-256 và xác thực email OTP.
+
+🧩 Project được thực hiện trong khuôn khổ môn NT106 - Lập Trình Mạng Căn Bản.
+💬 Mọi góp ý và phản hồi xin gửi qua Issues trên GitHub.
