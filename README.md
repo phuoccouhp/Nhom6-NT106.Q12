@@ -79,7 +79,7 @@ Họ tên
 
 Mật khẩu & Nhập lại mật khẩu
 
-Số điện thoại, Ngày sinh, Giới tính, Địa chỉ
+Số điện thoại, Ngày sinh, Giới tính, Địa chỉ (Tự chọn)  
 
 Nhấn “Đăng ký” để tạo tài khoản mới
 
