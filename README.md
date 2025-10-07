@@ -45,10 +45,10 @@ Mỗi chức năng được xây dựng thành một form riêng trong không gi
 
 2. **Cách cài đặt và chạy ứng dụng:**
    ```bash
-   # Clone project
-   git clone https://github.com/<your-repo>/BTVN1_Nhom6_NT106.git
+   # Clone project về Visual Studio
+   git clone https://github.com/phuoccouhp/BTVN1_Nhom6_NT106.git
 
-   # Tải file SQL về
+   # Tải file SQL về, chạy file SQL để tạo database QL_TaiKhoan  
    # Tải thủ công vì file sql đặt ở ngoài thư mục BTVN
 
     # Mở Visual Studio
@@ -81,7 +81,7 @@ Họ tên
 
 Mật khẩu & Nhập lại mật khẩu, Mật khẩu được mã hoá  SHA-256 trước khi lưu vào SQL   
 
-Số điện thoại, Ngày sinh, Giới tính, Địa chỉ (Tự chọn)  
+Số điện thoại, Ngày sinh, Giới tính, Địa chỉ (Tuỳ chọn)  
 
 Nhấn “Đăng ký” để tạo tài khoản mới
 
@@ -92,9 +92,9 @@ Nếu đã có tài khoản, chọn “Đăng nhập”
 
 Nhập Email đăng ký
 
-Nhấn “Gửi OTP” để nhận mã xác thực
+Nhấn “Gửi OTP” để nhận mã xác thực thông qua gmail
 
-Nhập mã OTP nhận được → chọn “Xác thực”
+Nhập mã OTP nhận được → chọn “Xác thực” để chuyển sang màn hình đổi mật khẩu mới.
 
 # 4️⃣ Màn hình Đổi mật khẩu (MatKhauMoi)
 <img width="814" height="499" alt="image" src="https://github.com/user-attachments/assets/fd41c7d1-8323-4096-b69d-8a4cb1ae0a01" />    
@@ -103,7 +103,7 @@ Nhập Username/Email
 
 Nhập mật khẩu mới và xác nhận lại, mật khẩu mới sẽ được kiểm tra và mã hoá bằng SHA-256 trước khi đưa vào SQL  
 
-Nhấn “Đổi mật khẩu” để cập nhật
+Nhấn “Đổi mật khẩu” để cập nhật mật khẩu lên SQL
 
 # 5️⃣ Màn hình Thông tin người dùng (ThongTinNguoiDung)
 <img width="641" height="557" alt="image" src="https://github.com/user-attachments/assets/22e81f6c-0335-4b4e-8655-4b4d3fd90d34" />    
