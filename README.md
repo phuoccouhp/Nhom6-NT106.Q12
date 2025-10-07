@@ -79,7 +79,7 @@ Email
 
 Họ tên
 
-Mật khẩu & Nhập lại mật khẩu
+Mật khẩu & Nhập lại mật khẩu, Mật khẩu được mã hoá  SHA-256 trước khi lưu vào SQL   
 
 Số điện thoại, Ngày sinh, Giới tính, Địa chỉ (Tự chọn)  
 
@@ -101,7 +101,7 @@ Nhập mã OTP nhận được → chọn “Xác thực”
 
 Nhập Username/Email
 
-Nhập mật khẩu mới và xác nhận lại
+Nhập mật khẩu mới và xác nhận lại, mật khẩu mới sẽ được kiểm tra và mã hoá bằng SHA-256 trước khi đưa vào SQL  
 
 Nhấn “Đổi mật khẩu” để cập nhật
 
@@ -112,6 +112,6 @@ Hiển thị thông tin cá nhân của người dùng:
 
 Username, Email, Mật khẩu, SĐT, Giới tính, Ngày sinh, Địa chỉ
 
-Có thể chọn 👁 hiện/ẩn mật khẩu
+Có thể chọn 👁 hiện/ẩn mật khẩu( dạng mã hoá SHA-256)  
 
 Nhấn “Đăng xuất” để thoát khỏi tài khoản
