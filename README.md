@@ -69,8 +69,6 @@ Có thể bấm “Quên mật khẩu?” để phục hồi mật khẩu
 Nếu chưa có tài khoản, chọn “Đăng ký”
 
 # 2️⃣ Màn hình Đăng ký (Dangky)
-<img width="627" height="586" alt="image" src="https://github.com/user-attachments/assets/ddb46542-3c2a-4ca2-911f-be135232f07c" />                               
-Nút tuỳ chọn để mở rộng thông tin tuỳ chọn:  
 <img width="643" height="601" alt="image" src="https://github.com/user-attachments/assets/ca33ef3f-46d9-4765-bab9-3106841e91ab" />
 
 Nhập các thông tin cá nhân:
@@ -90,7 +88,7 @@ Nhấn “Đăng ký” để tạo tài khoản mới
 Nếu đã có tài khoản, chọn “Đăng nhập”
 
 # 3️⃣ Màn hình Quên mật khẩu (Quenmatkhau)
-<img width="804" height="479" alt="image" src="https://github.com/user-attachments/assets/e17e1cf8-fe81-408f-afb7-e6a512010f76" />
+<img width="804" height="479" alt="image" src="https://github.com/user-attachments/assets/e17e1cf8-fe81-408f-afb7-e6a512010f76" />   
 
 Nhập Email đăng ký
 
@@ -99,6 +97,7 @@ Nhấn “Gửi OTP” để nhận mã xác thực
 Nhập mã OTP nhận được → chọn “Xác thực”
 
 # 4️⃣ Màn hình Đổi mật khẩu (MatKhauMoi)
+<img width="814" height="499" alt="image" src="https://github.com/user-attachments/assets/fd41c7d1-8323-4096-b69d-8a4cb1ae0a01" />    
 
 Nhập Username/Email
 
@@ -107,6 +106,7 @@ Nhập mật khẩu mới và xác nhận lại
 Nhấn “Đổi mật khẩu” để cập nhật
 
 # 5️⃣ Màn hình Thông tin người dùng (ThongTinNguoiDung)
+<img width="641" height="557" alt="image" src="https://github.com/user-attachments/assets/22e81f6c-0335-4b4e-8655-4b4d3fd90d34" />    
 
 Hiển thị thông tin cá nhân của người dùng:
 
