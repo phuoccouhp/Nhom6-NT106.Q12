@@ -111,7 +111,7 @@ namespace BTVN1_Nhom6_NT106.Q12
                             MessageBox.Show("Đổi mật khẩu thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             this.Close();
                             Dangnhap dangnhap = new Dangnhap();
-                            dangnhap.Show();
+                            this.Close();
                         }
                         else
                         {
