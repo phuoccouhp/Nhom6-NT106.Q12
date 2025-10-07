@@ -1,4 +1,4 @@
-# Nhóm 6- NT106.Q12 - GVHD: Lê Minh Khánh Hội
+# 📝Nhóm 6- NT106.Q12 - GVHD: Lê Minh Khánh Hội
 
 Thành viên nhóm:                                                                                                                                                                        
 **23521228	Bùi Lê Huy Phước**                                                                                                                                                                                     
