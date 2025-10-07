@@ -54,8 +54,7 @@ Mỗi chức năng được xây dựng thành một form riêng trong không gi
     Mở Visual Studio
     → Chọn File → Open → Project/Solution
     → Chạy file .sln của project
-
-   # Nhấn F5 để chạy chương trình
+    Nhấn F5 để chạy chương trình
 ## 💡 HƯỚNG DẪN SỬ DỤNG
 # 1️⃣ Màn hình Đăng nhập (Dangnhap)
 <img width="661" height="311" alt="image" src="https://github.com/user-attachments/assets/38cd2cbc-3a2e-46e0-8ea9-c4ab9fc6ba56" />
