@@ -65,7 +65,7 @@ namespace BTVN1_Nhom6_NT106.Q12
             }
 
             string hashedPassword = HashPassword(password);
-            string connectionString = "Data Source=.;Initial Catalog=QL_TaiKhoan;Integrated Security=True;";
+            string connectionString = "Data Source=.;Initial Catalog=QL_TaiKhoan;Integrated Security=False;";
 
             try
             {
