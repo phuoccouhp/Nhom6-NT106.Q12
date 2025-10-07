@@ -53,3 +53,65 @@ Mỗi chức năng được xây dựng thành một form riêng trong không gi
    # → Chạy file .sln của project
 
    # Nhấn F5 để chạy chương trình
+## 💡 HƯỚNG DẪN SỬ DỤNG
+# 1️⃣ Màn hình Đăng nhập (Dangnhap)
+
+Nhập Username/Email và Mật khẩu
+
+Chọn Đăng nhập để truy cập hệ thống
+
+Có thể bấm “Quên mật khẩu?” để phục hồi mật khẩu
+
+Nếu chưa có tài khoản, chọn “Đăng ký”
+
+# 2️⃣ Màn hình Đăng ký (Dangky)
+ 
+Nhập các thông tin cá nhân:
+
+Username
+
+Email
+
+Họ tên
+
+Mật khẩu & Nhập lại mật khẩu
+
+Số điện thoại, Ngày sinh, Giới tính, Địa chỉ
+
+Nhấn “Đăng ký” để tạo tài khoản mới
+
+Nếu đã có tài khoản, chọn “Đăng nhập”
+
+# 3️⃣ Màn hình Quên mật khẩu (Quenmatkhau)
+
+Nhập Email đăng ký
+
+Nhấn “Gửi OTP” để nhận mã xác thực
+
+Nhập mã OTP nhận được → chọn “Xác thực”
+
+# 4️⃣ Màn hình Đổi mật khẩu (MatKhauMoi)
+
+Nhập Username/Email
+
+Nhập mật khẩu mới và xác nhận lại
+
+Nhấn “Đổi mật khẩu” để cập nhật
+
+# 5️⃣ Màn hình Thông tin người dùng (ThongTinNguoiDung)
+
+Hiển thị thông tin cá nhân của người dùng:
+
+Username, Email, Mật khẩu, SĐT, Giới tính, Ngày sinh, Địa chỉ
+
+Có thể chọn 👁 hiện/ẩn mật khẩu
+
+Nhấn “Đăng xuất” để thoát khỏi tài khoản
+
+## 🖼️ CÁC MÀN HÌNH GIAO DIỆN ỨNG DỤNG
+Màn hình	Mô tả	Hình minh họa
+Đăng nhập	Giao diện khởi đầu, cho phép người dùng đăng nhập vào hệ thống	(ảnh Form Dangnhap)
+Đăng ký	Form nhập thông tin cá nhân để tạo tài khoản mới	(ảnh Form Dangky)
+Quên mật khẩu	Form nhập email và mã OTP xác thực	(ảnh Form Quenmatkhau)
+Đặt mật khẩu mới	Cho phép người dùng tạo lại mật khẩu mới	(ảnh Form MatKhauMoi)
+Thông tin người dùng	Hiển thị thông tin chi tiết và cho phép đăng xuất	(ảnh Form ThongTinNguoiDung)
