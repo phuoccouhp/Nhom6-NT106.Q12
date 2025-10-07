@@ -45,15 +45,15 @@ Mỗi chức năng được xây dựng thành một form riêng trong không gi
 
 2. **Cách cài đặt và chạy ứng dụng:**
    ```bash
-   # Clone project về Visual Studio
+    Clone project về Visual Studio
    git clone https://github.com/phuoccouhp/BTVN1_Nhom6_NT106.git
 
-   # Tải file SQL về, chạy file SQL để tạo database QL_TaiKhoan  
-   # Tải thủ công vì file sql đặt ở ngoài thư mục BTVN
+    Tải file SQL về, chạy file SQL để tạo database QL_TaiKhoan  
+    Tải thủ công vì file sql đặt ở ngoài thư mục BTVN
 
-    # Mở Visual Studio
-   # → Chọn File → Open → Project/Solution
-   # → Chạy file .sln của project
+    Mở Visual Studio
+    → Chọn File → Open → Project/Solution
+    → Chạy file .sln của project
 
    # Nhấn F5 để chạy chương trình
 ## 💡 HƯỚNG DẪN SỬ DỤNG
